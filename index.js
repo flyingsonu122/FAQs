@@ -13,7 +13,7 @@
 
 // **********
 
-$(".question").click(function() {
+$(".question").click(function () {
     $(this).next().fadeToggle("fast");
     $(this).children().toggleClass("collapse");
     // $("#a1").slideToggle("slow");
